@@ -1,7 +1,7 @@
 package achadoseperdidos.java.demo.service;
 
-import achadoseperdidos.model.ObjetoPerdido;
-import achadoseperdidos.repository.ObjetoRepository;
+import achadoseperdidos.java.demo.model.ObjetoPerdido;
+import achadoseperdidos.java.demo.repository.ObjetoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

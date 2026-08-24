@@ -1,7 +1,7 @@
 package achadoseperdidos.java.demo.controller;
 
-import achadoseperdidos.model.Usuario;
-import achadoseperdidos.repository.UsuarioRepository;
+import achadoseperdidos.java.demo.model.Usuario;
+import achadoseperdidos.java.demo.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,7 @@
 package achadoseperdidos.java.demo.controller;
 
-import achadoseperdidos.model.ObjetoPerdido;
-import achadoseperdidos.service.ObjetoService;
+import achadoseperdidos.java.demo.model.ObjetoPerdido;
+import achadoseperdidos.java.demo.service.ObjetoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
