@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Objetos Perdidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de Objetos Perdidos</h1>
+
+    <div class="card" th:each="objeto : ${objetos}">
+        <h2 th:text="${objeto.nome}"></h2>
+        <p><strong>Local:</strong> <span th:text="${objeto.local}"></span></p>
+        <p><strong>Data:</strong> <span th:text="${objeto.data}"></span></p>
+        <p><strong>Status:</strong> <span th:text="${objeto.status}"></span></p>
+        <p><strong>Devolvido para:</strong> <span th:text="${objeto.devolvidoPara}"></span></p>
+    </div>
+
+    <div class="card">
+        <h2>Cadastrar novo objeto</h2>
+        <form action="/objetos" method="post">
+            <input type="text" name="nome" placeholder="Nome do objeto" required>
+            <input type="text" name="local" placeholder="Local encontrado">
+            <input type="date" name="data">
+            <textarea name="descricao" placeholder="Descrição"></textarea>
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,5 +1,35 @@
-package css;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffde7; /* creme com toque amarelo bebê */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
 
-public class style {
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
 
+.card {
+    background-color: #ffffff;
+    border: 2px solid #fff176; /* amarelo bebê */
+    border-radius: 12px; /* borda arredondada */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: #fff176; /* amarelo bebê */
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #fdd835; /* tom mais forte ao passar o mouse */
 }
