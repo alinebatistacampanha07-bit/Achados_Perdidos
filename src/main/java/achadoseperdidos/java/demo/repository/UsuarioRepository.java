@@ -1,6 +1,6 @@
 package achadoseperdidos.java.demo.repository;
 
-import achadoseperdidos.model.Usuario;
+import achadoseperdidos.java.demo.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
